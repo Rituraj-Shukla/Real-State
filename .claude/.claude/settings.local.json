@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/91639/Downloads/**)",
+      "Bash(mkdir -p stitch_ref)",
+      "Bash(unzip -o \"stitch_meridian_estates_luxury_showcase.zip\" -d stitch_ref)",
+      "Bash(python scripts/search.py \"elegant luxury serif animation parallax\" --stack nextjs)",
+      "Bash(python scripts/search.py \"elegant luxury editorial serif\" --domain typography -n 3)",
+      "Bash(npm --version)"
+    ]
+  }
+}

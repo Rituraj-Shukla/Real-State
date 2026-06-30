@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(npm view uipro-cli version 2>&1)",
+      "PowerShell($v = uipro --version 2>&1; Write-Output \"version: $v\"; Write-Output \"--- help ---\"; uipro --help 2>&1 | Select-Object -First 30)"
+    ]
+  }
+}
